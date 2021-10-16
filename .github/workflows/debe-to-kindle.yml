@@ -1,7 +1,5 @@
 name: debe-to-kindle
 
-on: [push]
-
 on:
   schedule:
     - cron: "1 7 * * *"
