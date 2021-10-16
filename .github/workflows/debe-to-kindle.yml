@@ -22,6 +22,9 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run debe-to-kindle
         run: python main.py
+      - name: create env var for date
+        run: |
+          echo "DATE=$(python -c 'from datetime import date; print(date.today())')" >> $GITHUB_ENV
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
         with:
@@ -29,10 +32,10 @@ jobs:
           server_port: 465
           username: ${{secrets.MAIL_NAME}}
           password: ${{secrets.MAIL_PASSWORD}}
-          subject: debe
+          subject: debe - ${{env.DATE}}
           to: ${{secrets.KINDLE_MAIL}}
-          from: Automated Email
+          from: ${{secrets.MAIL_NAME}}
           ignore_cert: true
           secure: true
           html_body: README.md
-          attachments: debe.html
+          attachments: Eksisozluk DEBE - ${{env.DATE}}.html
