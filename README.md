@@ -23,7 +23,10 @@ günlük olarak mail gönderir. Kurulum yaptığınızda günlük mail gönderil
    * Veya `Actions > debe-to-kindle-push`'a tıklayıp orada yer alan son Action sayfasından `Re-run all jobs`'a tıklayın.
 6. Eğer bu adımda mail gönderiminde hata var ise [Bu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) 
 sayfa üzerinden (sanıyorum ki bir kez olarak) **Devam Et** seçeneğine tıklayın.
-7. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
+7. "Verify your Kindle document" mail'i alırsanız [burada](https://www.amazon.com/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment)
+yer alan `Personal Document Settings > Approved Personal Document E-mail List` kısmından gönderim yaptığınız mail adresini ekleyerek
+bu uyarıyı geçebilirsiniz.
+8. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
 
 # Mail Ayarları & Oluşabilecek Hatalar
 Melun Gmail, kendini korumayı görev edindiği için giriş yapamama hatalarını pek çok çeşitli yollar ile alabilirsiniz. Karşılaşacağınız
