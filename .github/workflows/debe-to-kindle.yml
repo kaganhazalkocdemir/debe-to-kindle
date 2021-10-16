@@ -7,7 +7,7 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 jobs:
-  scrape-latest:
+  debe-to-kindle:
     runs-on: ubuntu-latest
 
     steps:
