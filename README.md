@@ -1,8 +1,9 @@
 # debe to kindle
 <img src="img\dtk1.jpg" width="700">
 
-Mini Tool to lovers of debe from eksisozluk (one of the most famous website -reffered as collaborative dictionary like 
+Mini Tool to lovers of debe from eksisozluk (one of the most famous website -refered as collaborative dictionary like 
 reddit- in Turkey) for pushing debe (Most Liked Entries of Yesterday) to kindle every day via Github Actions.
+[Screenshot 1](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg), [Screenshot 2](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg).
 
 # Nasıl Kullanırım ?
 1. Öncelikle kullanacağınız mail adresininizin SMTP/IMAP ayarlarının var olduğunu düşünüyorum. Eğer yapılmamış veya emin
@@ -25,8 +26,9 @@ sayfa üzerinden (sanıyorum ki bir kez olarak) **Devam Et** seçeneğine tıkla
 7. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
 
 # Mail Ayarları & Oluşabilecek Hatalar
-Melun Gmail, kendini korumayı görev edindiği için giriş yapamama hatalarını pek çok çeşitli yollar ile alabilirsiniz. Bu
-sebepten [bu](https://support.google.com/mail/answer/7126229) sayfa üzerindeki 1. Adım kısmında yazanları ve 
+Melun Gmail, kendini korumayı görev edindiği için giriş yapamama hatalarını pek çok çeşitli yollar ile alabilirsiniz. Karşılaşacağınız
+hata muhtemelen Actions üzerinde göreceğiniz `Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbt`
+olacaktır. Bu sebepten [bu](https://support.google.com/mail/answer/7126229) sayfa üzerindeki 1. Adım kısmında yazanları ve 
 **Sorun Giderme** kısmındaki adımları büyük bir dikkat ile tamamlayın. Ayrıca [bu](https://myaccount.google.com/lesssecureapps)
 sayfa üzerinden "Daha az güvenli uygulama erişimi"'ne izin vermelisiniz.
 * İki adımlı uygulama kullanıyorsanız, kendi şifreniz yerine uygulama şifresi ile giriş yapmanız gerekiyor olabilir. Yukarıda
