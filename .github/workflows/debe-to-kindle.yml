@@ -3,8 +3,6 @@ name: debe-to-kindle
 on:
   schedule:
     - cron: "1 7 * * *"
-  workflow_dispatch:
-
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
