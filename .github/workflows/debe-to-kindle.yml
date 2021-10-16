@@ -1,0 +1,41 @@
+name: debe-to-kindle
+
+on: [push]
+
+on:
+  schedule:
+    - cron: "1 7 * * *"
+  workflow_dispatch:
+
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
+jobs:
+  scrape-latest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install requirements
+        run: pip install -r requirements.txt
+      - name: Run debe-to-kindle
+        run: python main.py
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{secrets.MAIL_NAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: debe
+          to: ${{secrets.KINDLE_MAIL}}
+          from: Automated Email
+          ignore_cert: true
+          secure: true
+          html_body: README.md
+          attachments: debe.html
