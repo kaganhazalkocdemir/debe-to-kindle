@@ -51,5 +51,5 @@ denemeler sırasında bu linki en az bir kere tıklamadan girişe izin verildiğ
 
 # Geri Bildirim
 Bir hata bulduysanız (o sizin kullanıcı hatanızdır, gayet çalışıyor işte), veya (daha ne eklenebilir emin değilim ama) 
-yeni bir özellik eklenmesini dilerseniz mail atmaktan, pull requests göndermekten, sözlük üzerinden mesaj atmaktan ve dua
+yeni bir özellik eklenmesini dilerseniz mail atmaktan (angelsdemos@gmail.com), pull requests göndermekten, sözlük üzerinden mesaj atmaktan ve dua
 etmekten geri durmayın.
