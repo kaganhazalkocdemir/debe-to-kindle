@@ -18,16 +18,22 @@ değilseniz **Mail Ayarları & Oluşabilecek Hatalar** kısmına bakın. Sonra [
 4. Dilerseniz gönderim saatini `.github/workflows/debe-to-kindle.yml` dosyasında yer alan `cron: "1 7 * * *"` kısmından
 değiştirebilirsiniz. İkinci sayı saati ilk sayı ise dakikayı belirtiyor. 09:20 için `cron: "20 9 * * *"` gibi. 
 (Saatler UTC üzerinden)
-5. `debe-to-kindle-push.yml` ve `debe-to-kindle.yml` adında iki adet action var. Push değişiklik yapıldığında diğeri ise
+5. `debe-to-kindle-push.yml` ve `debe-to-kindle.yml` adında iki adet action var. Push değişiklik yapıldığında, diğeri ise
 günlük olarak mail gönderir. Kurulum yaptığınızda günlük mail gönderilir ancak ayarları yeniden yaptıktan sonra deneme yapmak için :
    * Repository anasayfasındaki `yeşil / kırmızı işaret > Details`'i tıklayın. Açılan sayfadan `Re-run all jobs`'a tıklayın.
    * Veya `Actions > debe-to-kindle-push`'a tıklayıp orada yer alan son Action sayfasından `Re-run all jobs`'a tıklayın.
-6. Eğer bu adımda mail gönderiminde hata var ise [bu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) 
+6. Mail ayarları Gmail'e göre ayarlanmış ancak diğer mail servisleri de kullanılabilir (belki daha iyi bile olur). Bunun için `debe-to-kindle.yml`
+ve `debe-to-kindle-push.yml` dosyalarında en alt satırlarda yer alan bilgileri kullanacağınız mail servisinin SMTPservisi bilgilerini
+değiştirmeniz gerekmektedir. Örneğin  : Hotmail için [ayarlar](https://support.microsoft.com/tr-tr/office/outlook-com-i%C3%A7in-pop-imap-ve-smtp-ayarlar%C4%B1-d088b986-291d-42b8-9564-9c414e2aa040), Yahoo için [ayarlar](https://help.yahoo.com/kb/SLN4724.html).
+   * `server_address` : genelde smtp ile başlayan adres. (Yahoo : smtp.mail.yahoo.com, Hotmail/Outlook : smtp-mail.outlook.com)
+   * `server_port` : smtp bağlantı noktası. (Yahoo : 465 veya 587, Hotmail/Outlook : 587)
+   * `secure` :  mail servisinin TLS kullanıp kullanmadığı. %95 true.
+7. Eğer bu adımda mail gönderiminde hata var ise [bu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) 
 sayfa üzerinden (sanıyorum ki bir kez olarak) **Devam Et** seçeneğine tıklayın.
-7. "Verify your Kindle document" mail'i alırsanız [burada](https://www.amazon.com/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment)
+8. "Verify your Kindle document" mail'i alırsanız [burada](https://www.amazon.com/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment)
 yer alan `Personal Document Settings > Approved Personal Document E-mail List` kısmından gönderim yaptığınız mail adresini ekleyerek
 bu uyarıyı geçebilirsiniz veya geçmeyerek istediğiniz günler mail üzerinden onaylayarak sadece o gün için debe'yi kindle'a indirebilirsiniz.
-8. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
+9. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
 
 # Mail Ayarları & Oluşabilecek Hatalar
 Melun Gmail, kendini korumayı görev edindiği için giriş yapamama hatalarını pek çok çeşitli yollar ile alabilirsiniz. Karşılaşacağınız
