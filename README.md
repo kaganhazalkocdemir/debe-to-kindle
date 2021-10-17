@@ -1,13 +1,13 @@
-# debe to kindle
-<img src="img\dtk1.jpg" width="700">
+# debe to kindle [![Scheduled](https://github.com/angelsdemos/debe-to-kindle/actions/workflows/debe-to-kindle.yml/badge.svg?branch=main&event=schedule)](https://github.com/angelsdemos/debe-to-kindle/actions/workflows/debe-to-kindle.yml) [![Push](https://github.com/angelsdemos/debe-to-kindle/actions/workflows/debe-to-kindle-push.yml/badge.svg)](https://github.com/angelsdemos/debe-to-kindle/actions/workflows/debe-to-kindle-push.yml)
 
+<img src="img\dtk1.jpg" width="900">
 Mini Tool to lovers of debe from eksisozluk (one of the most famous website -refered as collaborative dictionary like 
 reddit- in Turkey) for pushing debe (Most Liked Entries of Yesterday) to kindle every day via Github Actions.
-[Screenshot 1](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg), [Screenshot 2](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg).
+[Screenshot 1](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg), [Screenshot 2](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk3.jpg).
 
 # Nasıl Kullanırım ?
 1. Öncelikle kullanacağınız mail adresininizin SMTP/IMAP ayarlarının var olduğunu düşünüyorum. Eğer yapılmamış veya emin
-değilseniz **Oluşabilecek Hatalar** kısmına bakın. Sonra [buradan](https://myaccount.google.com/lesssecureapps) 
+değilseniz **Mail Ayarları & Oluşabilecek Hatalar** kısmına bakın. Sonra [buradan](https://myaccount.google.com/lesssecureapps) 
 "Daha az güvenli uygulama erişimi"'ne izin verin.
 2. Projeyi fork'layın. (Github üyeliğiniz yoksa tabi önce üye olun ve sağ üstte yer alan Fork'a tıklayın)
 3. `Settings > Secrets`'a girip, sağ üstte yer alan `New Depository Secret` ile aşağıda yer alan üç adet Secret'i oluşturun.
