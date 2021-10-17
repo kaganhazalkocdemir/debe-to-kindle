@@ -3,6 +3,7 @@
 <img src="img\dtk1.jpg" width="900">
 Mini Tool to lovers of debe from eksisozluk (one of the most famous website -refered as collaborative dictionary like 
 reddit- in Turkey) for pushing debe (Most Liked Entries of Yesterday) to kindle every day via Github Actions.
+
 [Screenshot 1](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk2.jpg), [Screenshot 2](https://github.com/angelsdemos/debe-to-kindle/blob/main/img/dtk3.jpg).
 
 # Nasıl Kullanırım ?
@@ -21,11 +22,11 @@ değiştirebilirsiniz. İkinci sayı saati ilk sayı ise dakikayı belirtiyor. 0
 günlük olarak mail gönderir. Kurulum yaptığınızda günlük mail gönderilir ancak ayarları yeniden yaptıktan sonra deneme yapmak için :
    * Repository anasayfasındaki `yeşil / kırmızı işaret > Details`'i tıklayın. Açılan sayfadan `Re-run all jobs`'a tıklayın.
    * Veya `Actions > debe-to-kindle-push`'a tıklayıp orada yer alan son Action sayfasından `Re-run all jobs`'a tıklayın.
-6. Eğer bu adımda mail gönderiminde hata var ise [Bu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) 
+6. Eğer bu adımda mail gönderiminde hata var ise [bu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) 
 sayfa üzerinden (sanıyorum ki bir kez olarak) **Devam Et** seçeneğine tıklayın.
 7. "Verify your Kindle document" mail'i alırsanız [burada](https://www.amazon.com/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/settings/payment)
 yer alan `Personal Document Settings > Approved Personal Document E-mail List` kısmından gönderim yaptığınız mail adresini ekleyerek
-bu uyarıyı geçebilirsiniz.
+bu uyarıyı geçebilirsiniz veya geçmeyerek istediğiniz günler mail üzerinden onaylayarak sadece o gün için debe'yi kindle'a indirebilirsiniz.
 8. Debe'yi kindle üzerinden okumanın keyfini çıkarın :)
 
 # Mail Ayarları & Oluşabilecek Hatalar
@@ -38,7 +39,7 @@ sayfa üzerinden "Daha az güvenli uygulama erişimi"'ne izin vermelisiniz.
 yer alan linkin **Sorun Giderme** kısmında ne yapacağınızı bulabilirsiniz.
 * Son ve pek önemli olarak [şu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) sayfada yer alan Devam Et düğmesine
 tıklamayı ihmal etmeyin. Yine yukarıdaki linkte yer alan **Sorun Giderme** kısmında aynı link yer alıyor. Yaptığım çeşitli
-denemeler sırasında bu linki en az bir kere tıklamadan mailin gönderildiğine şahit olmadım.
+denemeler sırasında bu linki en az bir kere tıklamadan girişe izin verildiğine şahit olmadım.
 
 # Geri Bildirim
 Bir hata bulduysanız (o sizin kullanıcı hatanızdır, gayet çalışıyor işte), veya (daha ne eklenebilir emin değilim ama) 
