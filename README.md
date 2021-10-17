@@ -36,7 +36,9 @@ olacaktır. Bu sebepten [bu](https://support.google.com/mail/answer/7126229) say
 **Sorun Giderme** kısmındaki adımları büyük bir dikkat ile tamamlayın. Ayrıca [bu](https://myaccount.google.com/lesssecureapps)
 sayfa üzerinden "Daha az güvenli uygulama erişimi"'ne izin vermelisiniz.
 * İki adımlı uygulama kullanıyorsanız, kendi şifreniz yerine uygulama şifresi ile giriş yapmanız gerekiyor olabilir. Yukarıda
-yer alan linkin **Sorun Giderme** kısmında ne yapacağınızı bulabilirsiniz.
+yer alan linkin **Sorun Giderme** kısmında ne yapacağınızı bulabilirsiniz. [Bu](https://myaccount.google.com/security) sayfa üzerinde yer alan
+Google'da oturum açma sekmesinden Uygulama Şifreleri'ni tıklayarak uygulama şifresi oluşturun ve mail şifresi yerine orada yer alan şifreyi
+boşluksuz olarak kullanın.
 * Son ve pek önemli olarak [şu](https://accounts.google.com/b/0/DisplayUnlockCaptcha) sayfada yer alan Devam Et düğmesine
 tıklamayı ihmal etmeyin. Yine yukarıdaki linkte yer alan **Sorun Giderme** kısmında aynı link yer alıyor. Yaptığım çeşitli
 denemeler sırasında bu linki en az bir kere tıklamadan girişe izin verildiğine şahit olmadım.
