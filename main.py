@@ -40,7 +40,7 @@ def get_debe():
 
     debe_list_full = []
 
-    for debe_item in debe_list[:4]:
+    for debe_item in debe_list:
         try:
             raw_data = session.get(debe_item['url']).content
             soup = BeautifulSoup(raw_data, 'lxml')
