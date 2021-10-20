@@ -1,6 +1,6 @@
 name: debe-to-kindle-push
 
-on: [push]
+on: [push, fork]
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
